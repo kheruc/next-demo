@@ -11,7 +11,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <strong>{process.env.NEXT_PUBLIC_APP_NAME} v{version} running in {process.env.NEXT_PUBLIC_APP_ENV} environment</strong>
+     <p><strong>{process.env.NEXT_PUBLIC_APP_NAME}</strong> v{version} running in {process.env.NEXT_PUBLIC_APP_ENV} environment</p>
     </main>
   );
 }
